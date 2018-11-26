@@ -1,9 +1,17 @@
 import React from 'react';
+import Location from './Location';
+import WeatherData from './WeatherData';
 
-// Componente Funcional con ArrowFuction y codigo JSX
+// Componente Funcional con ArrowFunction y codigo JSX
+// Un ArrowFunction es una funcion anonima
 
 const WeatherLocation = () => (
-    <div>Weather Location</div>
+
+    // Incorporamos los componetes
+    <div>
+        <Location />
+        <WeatherData />
+    </div>
 );
 
 export default WeatherLocation;
